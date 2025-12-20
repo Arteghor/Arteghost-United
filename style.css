@@ -12,7 +12,7 @@ position: relative;
 justify-content: center;
 background-color: #4A3620;
 color: #F3EFE8;
-padding-left: 0;
+padding: 20px;
 text-align: center;
 gap: 20px;
 }
@@ -51,7 +51,7 @@ padding: 10px;
 
 /*Texte centré et plus bas */
 .header-text {
-  position: absolute;
+  flex: 1;
   left: 50%;
   transform: translateX(-50%);
   top:55%;
