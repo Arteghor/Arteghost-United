@@ -8,6 +8,7 @@ color: #000000;
 .header {
 display: flex;
 align_items: center;
+position: relative;
 justify-content: center;
 background-color: #4A3620;
 color: #F3EFE8;
@@ -41,8 +42,10 @@ text-align: center;
 padding: 10px;
 }
 
+/* Logo bien à gauche */
 .logo {
   width: 120px;
+  height: auto;
   margin: 5px;
 }
 
