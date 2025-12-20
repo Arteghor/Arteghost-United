@@ -6,15 +6,11 @@ color: #000000;
 }
 
 .header {
-display: flex;
-align_items: center;
 position: relative;
-justify-content: center;
 background-color: #4A3620;
 color: #F3EFE8;
 padding: 20px;
 text-align: center;
-gap: 20px;
 }
 
 nav {
