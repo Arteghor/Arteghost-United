@@ -41,7 +41,8 @@ padding: 10px;
 /* Logo tout à gauche */
 .logo {
   width: 120px;
-  position: relative;
+  position: absolute;
+  padding: 80px;
   left: 80px;
   top: 50%;
   transform: translateY(-50%);
