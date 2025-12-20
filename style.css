@@ -42,11 +42,10 @@ text-align: center;
 padding: 10px;
 }
 
-/* Logo bien à gauche */
+/* Logo tout à gauche */
 .logo {
-  width: 120px;
+  width: 90px;
   height: auto;
-  margin: 5px;
 }
 
 .header-text h1 {
