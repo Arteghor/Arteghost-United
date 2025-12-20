@@ -36,8 +36,8 @@ background-color: #4A3620;
 color: #F3EFE8;
 text-align: center;
 padding: 10px;
+position: fixed;
 bottom: 0;
-position: low;
 }
 
 /* Logo tout à gauche */
