@@ -1,8 +1,8 @@
 body {
 margin: 0;
 font-family: Arial, sans-serif;
-background-color: #4A3620;
-color: #F3EFE8;
+background-color: #FFFFFF;
+color: #000000;
 }
 
 header {
@@ -27,7 +27,7 @@ margin: 0 15px;
 
 section {
 padding: 30px;
-background-color: #000000;  
+background-color: #FFFFFF;  
 }
 
 footer {
