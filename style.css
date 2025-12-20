@@ -41,14 +41,16 @@ padding: 10px;
 /* Logo tout à gauche */
 .logo {
   width: 120px;
-  height: auto;
-  margin-left: 60px;
+  position: absolute;
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-/*Texte centré et plus bas */
+/*Texte parfaitement centré et plus bas */
 .header-text {
-  flex: 1;
   text-align: center;
+  color: #F3EFE8;
 }
 
 .header-text h1 {
