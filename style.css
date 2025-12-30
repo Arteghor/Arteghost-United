@@ -19,11 +19,24 @@ padding: 10px;
 text-align: center;
 }
 
-nav a {
-color: #F3EFE8;
-text-decoration: none;
-font-weight: bold;
-margin: 0 15px;
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #F3EFE8;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
 }
 
 section {
