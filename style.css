@@ -15,8 +15,6 @@ text-align: center;
 
 nav {
 background-color: #6B4A2B;
-padding: 10px;
-text-align: center;
 }
 
 nav ul {
@@ -36,7 +34,6 @@ nav ul li a {
   color: #FFFFFF;
   text-decoration: none;
   font-weight: bold;
-  display: inline-block;
 }
 
 section {
