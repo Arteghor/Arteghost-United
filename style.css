@@ -57,6 +57,10 @@ padding: 30px;
 background-color: #F3EFE8;  
 }
 
+main {
+  flex: 1;
+}
+
 footer {
 background-color: #4A3620;
 color: #F3EFE8;
