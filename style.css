@@ -86,6 +86,25 @@ width: 100%;
   font-size: 14px;
 }
 
+.actus {
+padding: 40px;
+text-align: center;
+}
+
+.actus-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.actu {
+background: #f3efe8;
+padding: 20px;
+width: 250px;
+border-radius: 8px;
+}
+
 
 
 
