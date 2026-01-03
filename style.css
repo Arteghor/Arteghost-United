@@ -98,7 +98,7 @@ padding: 2.5px;
 padding: 30px;
 text-align: center;
 margin-bottom: 40px;
-background-color: #FFFFFF;
+background-color: #F3EFE8;
 }
 
 .actus-container {
@@ -109,7 +109,7 @@ flex-wrap: wrap;
 }
 
 .actu {
-background: #f3efe8;
+background: #FFFFFF;
 padding: 20px;
 width: 250px;
 border-radius: 8px;
