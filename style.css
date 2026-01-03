@@ -121,15 +121,20 @@ margin-bottom: 60px;
 }
 
 .identite {
-  display: flex;
-  gap: 30px;
-  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.identite-text {
+  margin: 20px auto 0;
+  max-width: 700px;
+  line-height: 1.6;
 }
 
 .identite-img {
+  display: block;
+  margin: 20px auto 0;
   width: 180px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
-
-
