@@ -95,9 +95,10 @@ padding: 2.5px;
 }
 
 .actus {
-padding: 40px;
+padding: 30px;
 text-align: center;
 margin-bottom: 40px;
+background-color: F5F5F5;
 }
 
 .actus-container {
@@ -114,6 +115,9 @@ width: 250px;
 border-radius: 8px;
 }
 
+.actus article {
+margin-bottom: 20px;
+}
 
 
 
