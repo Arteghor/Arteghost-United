@@ -128,8 +128,10 @@ margin-bottom: 60px;
   text-align: left;
 }
 
-.identite Maillots du club {
+.maillot-centre {
   text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
 }
 
 .identite-text {
