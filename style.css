@@ -120,5 +120,16 @@ actus article {
 margin-bottom: 60px;
 }
 
+.identite {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.identite-img {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
 
 
