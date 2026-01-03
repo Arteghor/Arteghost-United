@@ -110,6 +110,9 @@ flex-wrap: wrap;
 
 .actu {
 background-image: url("IMG_0652.PNG");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 padding: 20px;
 width: 250px;
 border-radius: 8px;
