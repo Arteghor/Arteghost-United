@@ -182,3 +182,7 @@ margin-bottom: 60px;
   transform: scale(1.08);
   box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
+
+.maillots txt {
+  color: #FFFFFF;
+}
