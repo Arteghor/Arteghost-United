@@ -148,3 +148,17 @@ margin-bottom: 60px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+
+.maillots {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.maillots img {
+  width: 180px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3)
+}
