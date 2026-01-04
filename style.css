@@ -152,9 +152,18 @@ margin-bottom: 60px;
 .maillots {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   margin-top: 20px;
   flex-wrap: wrap;
+}
+
+.maillot {
+  text-align: center;
+}
+
+.identite-img {
+  width: 180px;
+  height: auto;
 }
 
 .maillots img {
