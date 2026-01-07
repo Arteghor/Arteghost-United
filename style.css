@@ -204,6 +204,7 @@ margin: auto;
 border-collapse: collapse;
 width: 90%;
 max-width: 800px;
+table-layout: fixed;
 background-color: #F3EFE8;
 }
 
