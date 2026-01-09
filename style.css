@@ -20,6 +20,14 @@ padding: 20px;
 text-align: center;
 }
 
+header .logo {
+  width: 180px;
+}
+
+.header-small .logo {
+  with: 120px;
+}
+
 nav {
 background-color: #6B4A2B;
 text-align: center;
@@ -229,3 +237,4 @@ background-color: #6B4A2B;
 color: white;
 font-weight: bold;
 }
+
