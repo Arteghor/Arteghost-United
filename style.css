@@ -20,14 +20,6 @@ padding: 20px;
 text-align: center;
 }
 
-header .logo {
-  width: 180px;
-}
-
-.header-small .logo {
-  with: 60px;
-}
-
 nav {
 background-color: #6B4A2B;
 text-align: center;
