@@ -236,72 +236,90 @@ font-weight: bold;
 }
 
 .effectif h2 {
-  font-size: 28px;
-  margin-top: 40px;
-  font-weight: 800;
-  text-transform: uppercase;
+  font-size: 48px;
+  margin-bottom: 30px;
+  font-weight: 900;
+  color: #222;
+  letter-spacing: 1px;
 }
 
 .players-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px; 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
 }
 
 .player-card {
   position: relative;
+  width: 100%;
+  max-width: 370px;
+  aspect-ratio: 1 / 1.15;
   background: #111;
-  border-radius: 12px;
+  border-radius: 18px;
   overflow: hidden;
-  padding-bottom: 15px;
-  color: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
 .player-card img {
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 8px;
   display: block;
-  margin: 0 auto;
+}
+
+.player-info {
+  position: absolute;
+  left: 22px;
+  bottom: 22px;
+  z-index: 2;
+  color: white;
 }
 
 .player-number {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 24px;
-  font-weight: 800;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.player-line {
+  width: 56px;
+  height: 5px;
+  background: #4A3620;
+  margin-bottom: 18px;
+  border-radius: 3px;
 }
 
 .player-name {
-  margin-top: 5px;
-  padding: 0 10px;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 0.95;
   text-transform: uppercase;
-}
-.card {
-  width: 200px;
-  height: 260px;
-  background: 4A3620;
-  color: f5f0e6;
-  border-radius: 12px;
-  padding: 10px;
-  text-align: center;
-  overflow; hidden;
+  color: #f5f0e6;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.45);
 }
 
-.card img {
-  width: 100%;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 8px;
+.player-card:hover {
+  transform: translateY(-4px);
+  transition: 0.25s ease;
 }
 
-.number {
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 8px;
+@media (max-width: 600px) {
+  .effectif {
+    padding: 25px 16px;
+  }
+
+  .effectif h2 {
+    font-size: 36px;
+  }
+
+  .player-number {
+    font-size: 38px;
+  }
+
+  .player-name {
+    font-size: 26px;
+  }
 }
+
 
