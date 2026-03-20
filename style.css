@@ -254,7 +254,7 @@ font-weight: bold;
   width: 100%;
   max-width: 370px;
   aspect-ratio: 1 / 1.15;
-  background: #111;
+  background: #4A3620;
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
@@ -269,8 +269,8 @@ font-weight: bold;
 
 .player-info {
   position: absolute;
-  left: 22px;
-  bottom: 22px;
+  left: 20px;
+  bottom: 20px;
   z-index: 2;
   color: white;
 }
