@@ -267,6 +267,7 @@ font-weight: bold;
   height: 100%;
   object-fit: contain;
   display: block;
+  mix-blend-mode: multiply;
 }
 
 .player-card .overlay {
