@@ -301,7 +301,7 @@ font-weight: bold;
 .player-line {
   width: 46px;
   height: 4px;
-  background: white;
+  background: #4A3620;
   margin-bottom: 12px;
   border-radius: 2px;
 }
