@@ -294,6 +294,7 @@ font-weight: bold;
   font-size: 26px;
   font-weight: 800;
   margin-bottom: 8px;
+  color: #4A3620;
 }
 
 .player-line {
@@ -309,7 +310,7 @@ font-weight: bold;
   font-weight: 900;
   line-height: 0.95;
   text-transform: uppercase;
-  color: white;
+  color: 4A3620;
 }
 
 @media (max-width: 600px) {
