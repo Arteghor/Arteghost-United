@@ -250,7 +250,9 @@ font-weight: bold;
 }
 
 .player-card {
-  width: 100%;
+  position: relative;
+  width: 260px;
+  height: 320px;
   background: #4A3620;
   border-radius: 18px;
   overflow: hidden;
@@ -259,32 +261,41 @@ font-weight: bold;
 
 .player-card img {
   width: 100%;
-  height: 220%;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
 
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(74, 54, 32, 0.95) 0%,
+    rgba(74, 54, 32, 0.7) 40%,
+    rgba(0,0,0,0.2) 70%,
+    rgba(0,0,0,0) 100%
+    );
+}
+
 .player-info {
-  position: static;
-  background: #4A3620;
-  padding: 16px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
   color: white;
 }
 
 .player-number {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 900;
-  color: 4A3620;
-  line-height: 1;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .player-line {
-  width: 56px;
-  height: 5px;
-  background: #4A3620;
-  margin-bottom: 18px;
-  border-radius: 3px;
+  width: 50px;
+  height: 4px;
+  background: white;
+  margin-bottom: 12px;
 }
 
 .player-name {
@@ -292,13 +303,6 @@ font-weight: bold;
   font-weight: 900;
   line-height: 0.95;
   text-transform: uppercase;
-  color: #f5f0e6;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.45);
-}
-
-.player-card:hover {
-  transform: translateY(-4px);
-  transition: 0.25s ease;
 }
 
 @media (max-width: 600px) {
