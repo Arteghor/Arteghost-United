@@ -256,7 +256,7 @@ font-weight: bold;
   position: relative;
   width: 320px;
   height: 340px;
-  background: #4a3620;
+  background: #4A3620;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
@@ -268,6 +268,7 @@ font-weight: bold;
   object-fit: contain;
   display: block;
   mix-blend-mode: multiply;
+  background: #4A3620;
 }
 
 .player-card .overlay {
