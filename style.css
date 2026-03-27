@@ -254,21 +254,19 @@ font-weight: bold;
 
 .player-card {
   position: relative;
-  width: 320px;
-  height: 340px;
+  width: 250px;
+  height: 300px;
   background: #4A3620;
-  border-radius: 16px;
+  border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
 .player-card img {
   width: 100%;
-  height: 100%;
+  height: 70%;
   object-fit: contain;
-  display: block;
-  mix-blend-mode: multiply;
-  background: #4A3620;
 }
 
 .player-card .overlay {
@@ -286,14 +284,16 @@ font-weight: bold;
 .player-info {
   position: absolute;
   left: 22px;
+  padding: 10px;
+  text-align: left;
   bottom: 22px;
   z-index: 2;
   color: white;
 }
 
 .player-number {
-  font-size: 26px;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: bold;
   margin-bottom: 8px;
   color: #4A3620;
 }
@@ -308,7 +308,7 @@ font-weight: bold;
 
 .player-name {
   font-size: 32px;
-  font-weight: 900;
+  font-weight: bold;
   line-height: 0.95;
   text-transform: uppercase;
   color: #4A3620;
