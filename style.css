@@ -253,18 +253,18 @@ font-weight: bold;
 }
 
 .player-card {
-  width: 250px;
-  height: 300px;
+  position: relative;
+  width: 260px;
+  height: 320px;
   background: #4A3620;
   border-radius: 15px;
-  padding: 10px;
-  text-align: center;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
 .player-card img {
   width: 100%;
-  height: 150px;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -282,18 +282,15 @@ font-weight: bold;
 
 .player-info {
   position: absolute;
-  left: 22px;
-  padding: 10px;
-  text-align: left;
-  bottom: 22px;
-  z-index: 2;
+  left: 15px;
+  bottom: 15px;
   color: white;
 }
 
 .player-number {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   color: #4A3620;
 }
 
@@ -306,10 +303,9 @@ font-weight: bold;
 }
 
 .player-name {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: bold;
-  line-height: 0.95;
-  text-transform: uppercase;
+  line-height: 1.1;
   color: #4A3620;
 }
 
