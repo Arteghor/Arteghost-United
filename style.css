@@ -264,14 +264,16 @@ font-weight: bold;
 }
 
 .player-card img {
-  width: 80%;
-  height: auto;
+  width: 100%;
+  height: 190px;
   object-fit: contain;
   display: block;
   margin: 0 auto;
+  position: relative;
 }
 
 .player-card .overlay {
+  position: absolute;
   inset: 0;
   background: linear-gradient(
     to top,
@@ -285,8 +287,10 @@ font-weight: bold;
 .player-info {
   position: absolute;
   left: 15px;
+  right: 15px;
   bottom: 15px;
   color: white;
+  z-index: 3;
 }
 
 .player-number {
@@ -309,6 +313,7 @@ font-weight: bold;
   font-weight: bold;
   line-height: 1.1;
   color: white;
+  text-transform: uppercase;
 }
 
 @media (max-width: 600px) {
