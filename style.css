@@ -271,7 +271,6 @@ font-weight: bold;
 }
 
 .player-card .overlay {
-  position: absolute;
   inset: 0;
   background: linear-gradient(
     to top,
@@ -283,7 +282,6 @@ font-weight: bold;
 }
 
 .player-info {
-  position: absolute;
   left: 15px;
   bottom: 15px;
   color: white;
