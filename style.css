@@ -236,29 +236,41 @@ font-weight: bold;
 }
 
 .effectif {
-  padding: 30px;
+  padding: 40px 30px;
 }
 
-.effectif h2 {
-  font-size: 56px;
+.effectif h1 {
+  font-size: 72px;
   margin-bottom: 30px;
-  font-weight: 900;
+  line-height: 1;
   color: #4a3620;
+}
+
+.poste-section {
+  margin-bottom: 50 px;
+}
+
+.poste-section h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: 4a3620;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
 }
 
 .players-grid {
   display: grid;
-  grid-template-columns: repeat(2, 320px);
+  grid-template-columns: repeat(2, 260px);
   gap: 24px;
 }
 
 .player-card {
   position: relative;
-  padding: 20px;
   width: 260px;
   height: 320px;
   background: #4A3620;
-  border-radius: 15px;
+  border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
@@ -268,8 +280,9 @@ font-weight: bold;
   height: 190px;
   object-fit: contain;
   display: block;
-  margin: 0 auto;
+  margin: 18px;
   position: relative;
+  z-index: 1;
 }
 
 .player-card .overlay {
@@ -277,9 +290,9 @@ font-weight: bold;
   inset: 0;
   background: linear-gradient(
     to top,
-    rgba(74, 54, 32, 0.95) 0%,
-    rgba(74, 54, 32, 0.65) 35%,
-    rgba(74, 54, 32, 0.15) 65%,
+    rgba(74, 54, 32, 0.96) 0%,
+    rgba(74, 54, 32, 0.72) 38%,
+    rgba(74, 54, 32, 0.18) 68%,
     rgba(74, 54, 32,0) 100%
     );
 }
@@ -294,16 +307,16 @@ font-weight: bold;
 }
 
 .player-number {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
   color: white;
 }
 
 .player-line {
   width: 46px;
   height: 4px;
-  background: #4A3620;
+  background: #ffffff;
   margin-bottom: 12px;
   border-radius: 2px;
 }
@@ -311,7 +324,7 @@ font-weight: bold;
 .player-name {
   font-size: 22px;
   font-weight: bold;
-  line-height: 1.1;
+  line-height: 1.05;
   color: white;
   text-transform: uppercase;
 }
