@@ -70,7 +70,7 @@ padding: 2.5px;
 
 /* Logo tout à gauche */
 .logo {
-  width: 90px;
+  width: 260px;
   height: auto;
   position: absolute;
   padding: 100px;
@@ -80,7 +80,7 @@ padding: 2.5px;
 }
 
 body.home .logo {
-  width: 140px;
+  width: 260px;
 }
 
 /*Texte parfaitement centré et plus bas */
