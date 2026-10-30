@@ -280,7 +280,9 @@ font-weight: bold;
   grid-template-columns: repeat(2, 260px);
   gap: 30px;
   justify-content: center;
-  margin: 0 auto;
+  align-items: start;
+  width:100%;
+  box-sizing: border-box;
 }
 
 .player-card {
@@ -291,6 +293,7 @@ font-weight: bold;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  margin: 0;
 }
 
 .player-card img {
