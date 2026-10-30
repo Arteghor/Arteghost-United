@@ -103,7 +103,7 @@ body.home .logo {
 padding: 30px;
 text-align: center;
 margin-bottom: 40px;
-color: #4A3620;
+background-color: #4A3620;
 }
 
 .actus-container {
@@ -118,7 +118,7 @@ background-color: #4A3620;
 padding: 20px;
 width: 250px;
 border-radius: 8px;
-color: #FFFFFF;
+color: #4A3620;
 }
 
 actus article {
