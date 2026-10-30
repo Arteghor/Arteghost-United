@@ -278,7 +278,6 @@ font-weight: bold;
 .players-grid {
   display: grid;
   grid-template-columns: repeat(2, 260px);
-  grid-auto-rows: 320px;
   gap: 30px;
   justify-content: center;
   align-items: stretch;
@@ -297,7 +296,6 @@ font-weight: bold;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
   margin: 0;
-  padding: 0;
 }
 
 .player-card img {
