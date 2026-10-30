@@ -126,7 +126,7 @@ flex-wrap: wrap;
 background-color: #F3EFE8;
 padding: 30px;
 border: none;
-border-radius: 8px;
+border-radius: 0;
 box-sizing: border-box;
 }
 
