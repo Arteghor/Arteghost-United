@@ -99,15 +99,22 @@ body.home .logo {
   font-size: 14px;
 }
 
-.actus h2 {
-  background-color: #4A3620; 
+.actus > h2 {
+  background-color: #4A3620;
+  color: #FFFFFF;
+  padding: 20px;
+  margin: 0 auto 30px;
+  border: 1px solid #D8C9A7;
+  border-radius: 8px;
+  max-width: 600px;
+  box-sizing: border-box;
 }
 
 .actus {
 padding: 30px;
 text-align: center;
 margin-bottom: 40px;
-background-color: #4A3620;
+background-color: transparent;
 color: #FFFFFF;
 }
 
@@ -116,6 +123,11 @@ display: flex;
 justify-content: center;
 gap: 20px;
 flex-wrap: wrap;
+background-color: #4A3620;
+padding: 30px;
+border: 1px solid #D8C9A7;
+border-radius: 8px;
+box-sizing: border-box;
 }
 
 .actu {
@@ -124,10 +136,12 @@ padding: 20px;
 width: 250px;
 border-radius: 8px;
 color: #FFFFFF;
+border: 1px solid #8B7355;
+box-sizing: border-box;
 }
 
 actus article {
-margin-bottom: 60px;
+margin-bottom: 0;
 }
 
 .identite {
