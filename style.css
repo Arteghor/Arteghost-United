@@ -283,7 +283,6 @@ font-weight: bold;
   align-items: start;
   width:100%;
   max-width: 550px;
-  box-sizing: border-box;
   margin: 0 auto 40px;
 }
 
