@@ -293,7 +293,7 @@ font-weight: bold;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
-  margin: 0;
+  margin: 6;
 }
 
 .player-card img {
