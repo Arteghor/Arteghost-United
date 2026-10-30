@@ -280,14 +280,14 @@ font-weight: bold;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 18px;
     width: 100%;
-    max-width: 550px;
+    max-width: 320px;
     margin: 0 auto 40px;
     align-items: start;
 }
 
 .player-card {
     position: relative;
-    width: 100%;
+    width: 100px;
     height: 320px;
     min-width: 0;
     margin: 0;
@@ -302,8 +302,8 @@ font-weight: bold;
 .player-card img {
     position: absolute;
     inset: 0;
-    width: 100%;
-    height: 100%;
+    width: 100px;
+    height: 320px;
     object-fit: cover;
     object-position: center top;
     display: block;
