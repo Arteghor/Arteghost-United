@@ -125,7 +125,7 @@ gap: 20px;
 flex-wrap: wrap;
 background-color: #F3EFE8;
 padding: 30px;
-border: 1px solid #D8C9A7;
+border: none;
 border-radius: 8px;
 box-sizing: border-box;
 }
