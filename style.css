@@ -280,11 +280,11 @@ font-weight: bold;
   grid-template-columns: repeat(2, 260px);
   gap: 30px;
   justify-content: center;
-  align-items: stretch;
+  align-items: start;
   width:100%;
+  max-width: 550px;
   box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0;
+  margin: 0 auto 40px;
 }
 
 .player-card {
@@ -304,7 +304,7 @@ font-weight: bold;
   object-fit: contain;
   object-position: center;
   display: block;
-  margin: 0;
+  margin-top: 15px;
   padding: 15px 0 0;
   box-sizing: border-box;
   position: relative;
